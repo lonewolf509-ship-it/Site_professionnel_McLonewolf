@@ -236,13 +236,15 @@ img.portfolio{
     min-height: 250px;
 }
 img.cover_image{
+    width: 200px
     height: 200px;
     margin-top: 100px;
 
 }
 h1{
-    font-size: 38px;
-    margin-top: 6px;
+    font-size: 34px;
+    line-height: 1.2
+    margin-top: 8px;
     margin-bottom: 0px;
 }
 .cover p{
@@ -250,7 +252,7 @@ h1{
     margin-top: 2px;
 }
 .cover-contact{
-    top: 9px;
+    top: 7px;
     left: 10px;
     line-height: 0.6;
 }
@@ -272,7 +274,7 @@ img.col-contenu{
     margin: 0px 0px;
     padding: 0px 0px;
     background-color: white;
-    box-shadow: 0px 0px 0px 0px;
+    box-shadow: none;
 }
 p.frame-title{
     font-size: 20px;
@@ -284,6 +286,13 @@ p.frame-title{
 img.imagesize{
     width: 100px;
 }
+img.col-contenu {
+    width: 100%;
+    margin-bottom: 25px;
+}
+.text-ligne-vertical {
+    height: 40px;
+}
 .text-ligne-vertical p{
     font-size: 17px;
 }
@@ -294,6 +303,7 @@ a.contact-button{
     padding: 4px 10px;
     right: 7px; 
     top: 9px;
+    font-size: 14px; 
 }
 .portfolio-header{
     height: 70px;
@@ -317,9 +327,9 @@ p.textt{
     margin-right: 15px;
 }
 .reduction{
+    width: 100%
     padding-left: 0px;
     padding-right: 0px;
-
 }
 
 }
